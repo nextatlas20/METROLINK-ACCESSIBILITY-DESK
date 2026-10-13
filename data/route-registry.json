@@ -1,0 +1,8 @@
+[
+  {"route_id":"RD","route_name":"Redwood","service_level":"core","active":true,"stations":["ST-101","ST-102","ST-103","ST-104"],"revision":1},
+  {"route_id":"BL","route_name":"Bluewater","service_level":"local","active":true,"stations":["ST-201","ST-202","ST-203"],"revision":1},
+  {"route_id":"GN","route_name":"Greenhill","service_level":"core","active":false,"stations":["ST-301"],"revision":3},
+  {"route_id":"BL","route_name":"Bluewater","service_level":"local","active":true,"stations":["ST-201","ST-202","ST-203"],"revision":2},
+  {"route_id":"XX","route_name":"Broken|Route","service_level":"core","active":true,"stations":["ST-999"],"revision":9},
+  {"route_id":"OR","route_name":"Orchard","service_level":"express","active":true,"stations":["ST-501"],"revision":1}
+]

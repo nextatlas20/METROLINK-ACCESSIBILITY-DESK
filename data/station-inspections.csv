@@ -1,0 +1,14 @@
+station_id,route_id,inspected_on,lift_status,tactile,status,revision
+ST-101,RD,2066-05-02,operational,present,confirmed,1
+ST-102,RD,2066-05-03,outage,present,confirmed,1
+ST-103,RD,2066-05-03,operational,missing,confirmed,1
+ST-201,BL,2066-05-01,operational,present,confirmed,1
+ST-202,BL,2066-05-04,operational,present,draft,1
+ST-203,BL,2066-05-05,outage,missing,confirmed,1
+ST-301,GN,2066-05-02,operational,present,confirmed,1
+ST-102,RD,2066-05-06,operational,present,confirmed,2
+ST-203,BL,2066-05-06,operational,missing,confirmed,2
+ST-401,RD,2066-05-04,operational,present,confirmed,1
+BAD,RD,2066-05-03,operational,present,confirmed,7
+ST-104,RD,not-a-date,operational,present,confirmed,1
+ST-201,BL,2066-05-07,outage,present,confirmed,2
