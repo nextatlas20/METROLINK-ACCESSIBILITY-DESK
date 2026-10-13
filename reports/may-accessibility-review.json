@@ -1,0 +1,74 @@
+{
+  "period": "2066-05-01/2066-05-07",
+  "summary": {
+    "registered_stations": 7,
+    "inspected_stations": 5,
+    "operational_stations": 2,
+    "attention_stations": 3,
+    "uninspected_stations": 2
+  },
+  "routes": [
+    {
+      "route_id": "BL",
+      "route_name": "Bluewater",
+      "service_level": "local",
+      "registered_stations": 3,
+      "inspected_stations": 2,
+      "operational_stations": 0,
+      "attention_stations": 2,
+      "uninspected_stations": 1
+    },
+    {
+      "route_id": "RD",
+      "route_name": "Redwood",
+      "service_level": "core",
+      "registered_stations": 4,
+      "inspected_stations": 3,
+      "operational_stations": 2,
+      "attention_stations": 1,
+      "uninspected_stations": 1
+    }
+  ],
+  "exceptions": [
+    {
+      "route_id": "BL",
+      "station_id": "ST-201",
+      "finding": "attention",
+      "inspected_on": "2066-05-07",
+      "lift_status": "outage",
+      "tactile": "present"
+    },
+    {
+      "route_id": "BL",
+      "station_id": "ST-202",
+      "finding": "no confirmed inspection",
+      "inspected_on": null,
+      "lift_status": null,
+      "tactile": null
+    },
+    {
+      "route_id": "BL",
+      "station_id": "ST-203",
+      "finding": "attention",
+      "inspected_on": "2066-05-06",
+      "lift_status": "operational",
+      "tactile": "missing"
+    },
+    {
+      "route_id": "RD",
+      "station_id": "ST-103",
+      "finding": "attention",
+      "inspected_on": "2066-05-03",
+      "lift_status": "operational",
+      "tactile": "missing"
+    },
+    {
+      "route_id": "RD",
+      "station_id": "ST-104",
+      "finding": "no confirmed inspection",
+      "inspected_on": null,
+      "lift_status": null,
+      "tactile": null
+    }
+  ]
+}
